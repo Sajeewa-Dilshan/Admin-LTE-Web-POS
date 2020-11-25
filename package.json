@@ -1,0 +1,7 @@
+{
+  "name": "Admin LTE Web POS",
+  "version": "1.0.0",
+  "dependencies": {
+    "admin-lte": "^3.1.0-rc"
+  }
+}

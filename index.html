@@ -167,6 +167,276 @@
 
     </div>
 
+    <div class="content-wrapper manage-customer">
+        <!-- Content Header (Page header) -->
+        <div class="content-header ml-2" >
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0 text-dark font-weight-bold">Customers</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">Dashboard v1</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content ml-3">
+            <div class=" row box-body table-responsive no-padding">
+                <table class="table table-hover table-bordered">
+                    <thead class="thead-dark ">
+                    <tr class="text-center">
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Mr./Mrs./Ms.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Contact No</th>
+                        <th scope="col">Email</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">C001</th>
+                        <td>Mr.</td>
+                        <td>sajeewa</td>
+                        <td>Kegalle</td>
+                        <td>0711234567</td>
+                        <td>sdk@gmail.com</td>
+                        <td>
+                            <button type="button" class="btn btn-success">Edit</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">C002</th>
+                        <td>Mr.</td>
+                        <td>dilshan</td>
+                        <td>Galle</td>
+                        <td>0701234567</td>
+                        <td>dilshan@gmail.com</td>
+                        <td>
+                            <button type="button" class="btn btn-success">Edit</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">C003</th>
+                        <td>Mr.</td>
+                        <td>Sahan</td>
+                        <td>Piliyandala</td>
+                        <td>0751234567</td>
+                        <td>sahan@gmail.com</td>
+                        <td>
+                            <button type="button" class="btn btn-success">Edit</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h3 font-weight-bold">Add a New Customer</h1>
+            </div>
+
+            <form class="row">
+                <div class="form-group  col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-1">
+                    <label>Designation</label>
+                    <label for="FormControlSelect1"></label><select class="form-control" id="FormControlSelect1">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Ms.</option>
+                </select>
+                </div>
+                <div class="form-group  col-xs-12 col-sm-4  col-xl-2">
+                    <label>Name:</label>
+                    <label for="name"></label><input type="text" class="form-control" id="name"
+                                                     placeholder="Enter Name">
+                </div>
+                <div class="form-group col-xs-12 col-sm-5  col-xl-4">
+                    <label>Address:</label>
+                    <label for="address"></label><input type="text" class="form-control" id="address"
+                                                        placeholder="Enter Address">
+                </div>
+                <div class="form-group  col-xs-12 col-sm-5 col-xl-2">
+                    <label>Contact No:</label>
+                    <label for="contactNo"></label><input type="text" class="form-control" id="contactNo"
+                                                          placeholder="Enter Contact No">
+                </div>
+                <div class="form-group  col-xs-12 col-sm-7  col-xl-3">
+                    <label>Email: </label>
+                    <label for="email"></label><input type="text" class="form-control" id="email"
+                                                      placeholder="Enter Email">
+                </div>
+            </form>
+            <button type="button" class="btn btn-primary">Add</button>
+
+        </section>
+        <!-- /.content -->
+    </div>
+
+    <div class="content-wrapper place-order">
+        <!-- Content Header (Page header) -->
+        <div class="content-header ml-2" >
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0 text-dark font-weight-bold">Place Your Order!</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">Dashboard v1</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content ml-3">
+            <form class="row">
+                <div class="form-group  col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-1">
+                    <label >Customer ID</label>
+                    <label for="c-FormControlSelect"></label><select class="form-control" id="c-FormControlSelect">
+                    <option>C001</option>
+                    <option>C002</option>
+                    <option>C003</option>
+                </select>
+                </div>
+                <div class="form-group  col-xs-12 col-sm-4  col-xl-2">
+                    <label>Name:</label>
+                    <label for="c-name"></label><input type="text" class="form-control" id="c-name"  >
+                </div>
+                <div class="form-group col-xs-12 col-sm-5  col-xl-4">
+                    <label>Address:</label>
+                    <label for="address"></label><input type="text" class="form-control" id="address" >
+                </div>
+                <div class="form-group  col-xs-12 col-sm-5 col-xl-2">
+                    <label>Contact No:</label>
+                    <label for="contactNo"></label><input type="text" class="form-control" id="contactNo" p>
+                </div>
+                <div class="form-group  col-xs-12 col-sm-7  col-xl-3">
+                    <label>Email: </label>
+                    <label for="email"></label><input type="text" class="form-control" id="email"  >
+                </div>
+            </form>
+
+            <form class="row">
+                <div class="form-group  col-xs-12 col-sm-3 col-xl-2">
+                    <label>Item Code:</label>
+                    <label for="i-FormControlSelect"></label><select class="form-control" id="i-FormControlSelect">
+                    <option>I001</option>
+                    <option>I002</option>
+                    <option>I003</option>
+                </select>
+                </div>
+                <div class="form-group  col-xs-12 col-sm-3  col-xl-2">
+                    <label>Name:</label>
+                    <label for="i-name"></label><input type="text" class="form-control" id="i-name">
+                </div>
+                <div class="form-group  col-xs-12 col-sm-6  col-xl-4">
+                    <label>Description:</label>
+                    <label for="description"></label><input type="text" class="form-control" id="description">
+                </div>
+                <div class="form-group  col-xs-12 col-sm-4 col-xl-2">
+                    <label>Discount %: </label>
+                    <label for="discount"></label><input type="text" class="form-control" id="discount">
+                </div>
+                <div class="form-group  col-xs-12 col-sm-4 col-xl-2">
+                    <label>Unit Price:</label>
+                    <label for="unit-price"></label><input type="text" class="form-control" id="unit-price">
+                </div>
+                <div class="form-group col-xs-12 col-sm-4  col-xl-1">
+                    <label>Quantity:</label>
+                    <label for="qty-on-hand"></label><input type="text" class="form-control" id="qty-on-hand">
+                </div>
+            </form>
+
+            <button type="button" class="btn btn-primary">
+                <i class="nav-icon fas fa-cart-plus"></i>
+            </button>
+
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h3 font-weight-bold">Order Details</h1>
+            </div>
+
+            <div class="row box-body table-responsive no-padding ">
+                <table class=" table table-bordered table-hover ">
+                    <thead class="thead-dark">
+                    <tr class="text-center">
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Discount</th>
+                        <th scope="col">Unit Price (Rs.)</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total (Rs.)</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">I001</th>
+                        <td>Dhal</td>
+                        <td>small</td>
+                        <td>2000</td>
+                        <td>150</td>
+                        <td>5%</td>
+                        <td><button type="button" class="btn btn-success">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">I002</th>
+                        <td>Rice</td>
+                        <td>Red Sri Lanka</td>
+                        <td>3000</td>
+                        <td>110</td>
+                        <td>10%</td>
+                        <td><button type="button" class="btn btn-success">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">I003</th>
+                        <td>Soya</td>
+                        <td>Sri Lanka</td>
+                        <td>1500</td>
+                        <td>60</td>
+                        <td>5%</td>
+                        <td><button type="button" class="btn btn-success">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row d-flex justify-content-end align-items-center pr-5 pb-2">
+                <label class="mr-2 font-weight-bold">Order Total:</label>
+                <label id="order-total" class="mr-5 font-weight-bold">3500 LKR</label>
+                <button type="button" class="btn btn-primary ">
+                    <i class="nav-icon fas fa-shopping-cart"></i>
+
+                </button>
+            </div>
+
+        </section>
+        <!-- /.content -->
+    </div>
 
     <div class="content-wrapper search-order">
         <!-- Content Header (Page header) -->
