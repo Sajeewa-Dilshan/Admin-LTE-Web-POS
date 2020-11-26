@@ -11,6 +11,11 @@ var manageItem=document.querySelector(".manage-item");
 var placeOrder=document.querySelector(".place-order");
 var searchOrder=document.querySelector(".search-order");
 
+dashboard.classList.remove("hide-div");
+manageCustomer.classList.add("hide-div");
+manageItem.classList.add("hide-div");
+placeOrder.classList.add("hide-div");
+searchOrder.classList.add("hide-div");
 
 dashboardBar.addEventListener('click',function (){
     dashboard.classList.remove("hide-div");

@@ -10,7 +10,7 @@ const { default: merge } = require("webpack-merge");
 const superConfig=require('./webpack.config');
 
 module.exports= merge(superConfig,{
-    string = "false",
+  //  string = "false",
     plugins:[
         new MiniCssExtractPlugin({
             filename:"main.min.css"
